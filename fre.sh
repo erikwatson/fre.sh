@@ -23,7 +23,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 
 
 # Install oter Programs
-sudo apt-get install vim git zsh htop -y
+sudo apt-get install vim git zsh htop tmux -y
 
 # Install Fonts
 sudo apt-get install fonts-hack-ttf -y
