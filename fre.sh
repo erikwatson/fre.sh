@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Install Docker
 ## Install Docker Requirements
@@ -53,6 +53,3 @@ vim +PluginInstall +qall
 
 # Base16 Shell
 git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
-
-source ~/.zshrc
-base16_tomorrow-night
