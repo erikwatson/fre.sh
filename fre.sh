@@ -40,6 +40,10 @@ git clone https://github.com/erikwatson/zshrc ~/zshrc
 rm ~/.zshrc
 ln -s ~/zshrc/.zshrc ~/.zshrc
 
+## Install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+
 # Set up Vim
 ## vimrc
 git clone https://github.com/erikwatson/vimrc ~/vimrc
