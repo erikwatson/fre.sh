@@ -2,7 +2,7 @@
 
 # Install Docker
 ## Install Docker Requirements
-apt-get install \
+sudo apt-get install \
     apt-transport-https \
     ca-certificates \
     curl \
@@ -13,20 +13,20 @@ apt-get install \
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
 ## Set up the Stable Repo for Docker
-add-apt-repository \
+sudo add-apt-repository \
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
    $(lsb_release -cs) \
    stable"
 
 ## Install Docker Engine
-apt-get install docker-ce docker-ce-cli containerd.io -y
+sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 
 
 # Install oter Programs
-apt-get install vim git zsh htop -y
+sudo apt-get install vim git zsh htop -y
 
 # Install Fonts
-apt-get install fonts-hack-ttf -y
+sudo apt-get install fonts-hack-ttf -y
 
 # Set up ZSH
 ## Set the default shell to zsh
