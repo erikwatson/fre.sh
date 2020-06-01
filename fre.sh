@@ -32,9 +32,6 @@ sudo apt-get install fonts-hack-ttf -y
 ## Set the default shell to zsh
 chsh -s $(which zsh)
 
-## Base16 Shell
-git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
-
 ## zshrc
 git clone https://github.com/erikwatson/zshrc ~/zshrc
 rm ~/.zshrc
@@ -53,3 +50,7 @@ ln -s ~/vimrc/.vimrc ~/.vimrc
 ## Install Vundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
+
+## Base16 Shell
+git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
+base16_tomorrow-night
